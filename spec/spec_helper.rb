@@ -1,7 +1,7 @@
 require "minitest/autorun"
 require "minitest/spec"
 
-class FeatureSpec < MiniTest::Spec 
+class FeatureSpec < MiniTest::Spec
   require "capybara/webkit"
   include Capybara::DSL
   Capybara.default_driver = :webkit
